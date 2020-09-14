@@ -16,7 +16,7 @@
 			<div>
 				<nav>
 					<ul>
-						<li><a>Home</a></li>
+						<li><a href={{ url_for('home') }}>Home</a></li>
 						<li><a>Blogs</a></li>
 						<li><a>Abouts</a></li>
 					</ul>
@@ -57,6 +57,16 @@
 		</div>
 		<div class="content">
 			<div class="single">
+				<img class="landscape" src={{ url_for('static', filename='img/content/murti_stone.jpeg')}}/>
+				<h4 class="content">Feel the Flow...</h4>
+			</div>
+			<div class="single">
+				<img class="landscape" src={{ url_for('static', filename='img/content/view_wet.jpeg')}}/>
+				<h4 class="content">The Wet Road and Blur Vision...</h4>
+			</div>
+		</div>
+		<div class="content">
+			<div class="single">
 				<img class="square" src={{ url_for('static', filename='img/content/script.jpeg')}}/>
 				<h4 class="content">The Speaking History...</h4>
 			</div>
@@ -69,6 +79,20 @@
 				<h4 class="content">The Whispering Buddy...</h4>
 			</div>
 		</div>
+		<div class="content">
+			<div class="single">
+				<img class="potrait" src={{ url_for('static', filename='img/content/ganesh1.jpeg')}}/>
+				<h4 class="content">Something beyond Price...</h4>
+			</div>
+			<div class="single">
+				<img class="potrait" src={{ url_for('static', filename='img/content/lizard.jpeg')}}/>
+				<h4 class="content">Never Compromise...</h4>
+			</div>
+			<div class="single">
+				<img class="potrait" src={{ url_for('static', filename='img/content/ganesh2.jpeg')}}/>
+				<h4 class="content">The Highest form of Human Intelligence...</h4>
+			</div>
+		</div>	
 		<div class="content">
 			<div class="single">
 				<img class="square" src={{ url_for('static', filename='img/content/bluesmoke1.jpeg')}}/>
@@ -110,7 +134,49 @@
 				<img class="square" src={{ url_for('static', filename='img/content/water-oil1.jpeg')}}/>
 				<h4 class="content">Something beyond Mind...</h4>
 			</div>
-		</div>		
+		</div>
+		<div class="content">
+			<div class="single">
+				<img class="square" src={{ url_for('static', filename='img/content/off_bulb.jpeg')}}/>
+				<h4 class="content">Where Natural meets Artificial...</h4>
+			</div>
+			<div class="single">
+				<img class="square" src={{ url_for('static', filename='img/content/glowing_bulb.jpeg')}}/>
+				<h4 class="content">The Artificial Sun...</h4>
+			</div>
+			<div class="single">
+				<img class="square" src={{ url_for('static', filename='img/content/water-oil2.jpeg')}}/>
+				<h4 class="content">The Solitude...</h4>
+			</div>
+		</div>
+		<div class="content">
+			<div class="single">
+				<img class="square" src={{ url_for('static', filename='img/content/wet_glass_side.jpg')}}/>
+				<h4 class="content">The Blur Vision...</h4>
+			</div>
+			<div class="single">
+				<img class="square" src={{ url_for('static', filename='img/content/water-oil3.jpeg')}}/>
+				<h4 class="content">The Prisoner...</h4>
+			</div>
+			<div class="single">
+				<img class="square" src={{ url_for('static', filename='img/content/tap-drop.jpeg')}}/>
+				<h4 class="content">Everything is Connected...</h4>
+			</div>
+		</div>
+		<div class="content">
+			<div class="single">
+				<img class="square" src={{ url_for('static', filename='img/content/stopper.jpeg')}}/>
+				<h4 class="content">The Hindrance...</h4>
+			</div>
+			<div class="single">
+				<img class="square" src={{ url_for('static', filename='img/content/switch_board.jpeg')}}/>
+				<h4 class="content">The Unnoticed...</h4>
+			</div>
+			<div class="single">
+				<img class="square" src={{ url_for('static', filename='img/content/manip_cave.jpeg')}}/>
+				<h4 class="content">Power of Manipulation...</h4>
+			</div>
+		</div>	
 	</section>
 </body>
 </html>

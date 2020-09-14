@@ -25,6 +25,7 @@ li {
 }
 a{
     text-decoration: none;
+    color: white;
 }
 a:hover{
     text-decoration:underline;
@@ -71,6 +72,20 @@ img.sym{
 img.square{
     width: 491px;
     height: 490px;
+    padding: 5px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+img.landscape{
+    width: 741px;
+    height: 503px;
+    padding: 5px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+img.potrait{
+    width: 491px;
+    height: 636px;
     padding: 5px;
     padding-top: 8px;
     padding-bottom: 0px;
